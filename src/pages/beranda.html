@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda VideoBelajar</title>
+    <link href="../../css/output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../image/logo.PNG" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+</head>
+
+<body class="bg-[#fffdf3]">
+    <!-- navbar -->
+    <nav class="navbarTop">
+        <div class="justify-self-start">
+            <!--icon logo-->
+            <img src="../image/logo.PNG" alt="icon logo" class="navbarIcon" />
+        </div>
+        <div class="flex justify-end items-center justify-self-end w-full relative"><!--account menu-->
+            <div class="hidden md:flex md:justify-end"> <!--navbar menu pc-->
+                <a href="" class="text-gray-500">Kategori</a>
+                <button class="ml-5 mr-12" onclick="clickMenuProfile()">
+                    <img src="https://avatar.iran.liara.run/public" alt="" class="h-7 w-7">
+                </button>
+            </div>
+            <div class="flex justify-end items-center md:hidden"> <!--navbar menu smartphone-->
+                <div class="flex items-center h-full">
+                    <button onclick="clickMenuProfile()"><i class="ph ph-list text-[20px]"></i></button>
+                    
+                </div>
+            </div>
+            <div class="dropdownNavbarProfile hidden" id="dropdownNavbarProfile">
+                <div class="cardMenu">
+                    <a href="" class="normalText text-black">Menu Utama</a>
+                </div>
+                <div class="cardMenu">
+                    <a href="" class="normalText text-black">Menu Utama</a>
+                </div>
+                <div class="cardMenu">
+                    <a href="" class="normalText text-black">Menu Utama</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- main -->
+    <main class="flex justify-center w-full"></main>
+
+    <script>
+        const dropdownNavbarProfile = document.getElementById("dropdownNavbarProfile");
+
+        const clickMenuProfile = () =>{
+            dropdownNavbarProfile.classList.toggle("hidden"); // toggle between hidden & block
+        }
+    </script>
+</body>
+
+</html>

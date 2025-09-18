@@ -1,0 +1,8 @@
+@layer components{
+    .dropdownNavbarProfile{
+        @apply border border-gray-200 bg-white absolute top-[100%]   w-[70%] sm:w-[40%] md:mr-12
+    }
+    .dropdownNavbarProfile .cardMenu{
+        @apply p-2 border border-gray-200 rounded-sm
+    }
+}
