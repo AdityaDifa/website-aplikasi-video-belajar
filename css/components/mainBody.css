@@ -1,0 +1,15 @@
+@layer components {
+    .cardLogin {
+        @apply bg-white m-5 w-[95vh] sm:w-[65vh] border border-gray-100 rounded-md grid grid-cols-1 items-center;
+    }
+
+    .parentBeranda{
+        @apply w-full flex justify-center mt-5 md:mt-15;
+    }
+    .childBeranda{
+        @apply w-[90%] md:w-[75%] 
+    }
+    .cardClass{
+        @apply bg-white border border-gray-200 p-2 w-full h-full rounded-md
+    }
+}

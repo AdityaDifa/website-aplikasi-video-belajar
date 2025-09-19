@@ -1,0 +1,26 @@
+@layer components{
+    .buttonText {
+        @apply text-[10px] sm:text-[12px] h-6 font-medium text-center;
+    }
+
+    .designButton {
+        @apply block w-full rounded-md h-5 sm:h-6 font-[Lato] text-[10px] sm:text-[12px] my-1;
+    }
+
+    .greenButton {
+        @apply bg-[#3ECF4C] text-gray-100;
+    }
+    .greenButton:hover{
+        @apply bg-[#23a730] text-gray-100;
+    }
+
+    .lightButton {
+        @apply bg-[#E2FCD9CC] text-[#3ECF4C];
+    }
+    .lightButton:hover{
+        @apply bg-[#d3d3d3cc] text-[#06d41a];
+    }
+    .greenButton:active, .lightButton:active{
+        @apply bg-[#949494]
+    }
+}

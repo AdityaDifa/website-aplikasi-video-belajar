@@ -2,6 +2,12 @@
 
 @import "tailwindcss";
 
-@import "./login.css";
+@import "./components/button.css";
 
-@import "./mainPage.css"
+@import "./components/inputStyle.css";
+
+@import "./components/footer.css";
+
+@import "./components/text.css";
+
+@import "./components/mainBody.css";

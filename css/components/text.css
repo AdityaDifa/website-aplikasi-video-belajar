@@ -1,0 +1,9 @@
+@layer components{
+    .titleText {
+        @apply font-[Quicksand] font-bold text-[20px] sm:text-[22px];
+    }
+
+    .normalText {
+        @apply font-[Lato] text-[10px] sm:text-[12px] text-gray-500;
+    }
+}

@@ -1,0 +1,5 @@
+@layer components{
+    .inputDesign {
+        @apply border border-gray-200 rounded-sm w-full h-7 font-[Lato] text-[10px] sm:text-[12px] p-1 mb-1;
+    }
+}
