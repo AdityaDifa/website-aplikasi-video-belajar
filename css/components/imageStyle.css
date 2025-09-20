@@ -1,0 +1,5 @@
+@layer components{
+    .imageClass{
+        @apply  object-cover w-20 h-20 md:h-full md:w-full rounded-md;
+    }
+}

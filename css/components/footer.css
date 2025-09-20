@@ -13,4 +13,7 @@
     .dropdownNavbarProfile .cardMenu{
         @apply p-2 border border-gray-200 rounded-sm
     }
+    .dropdownNavbarProfile .cardMenu:hover{
+        @apply bg-gray-100
+    }
 }
