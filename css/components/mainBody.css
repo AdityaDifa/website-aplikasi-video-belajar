@@ -1,3 +1,12 @@
+@layer base{
+    p{
+        @apply font-[Quicksand]
+    }
+    h1{
+        font-family: 'Quicksand', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    }
+}
+
 @layer components {
     .cardLogin {
         @apply bg-white m-5 w-[95vh] sm:w-[65vh] border border-gray-100 rounded-md grid grid-cols-1 items-center;

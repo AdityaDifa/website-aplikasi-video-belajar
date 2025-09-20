@@ -6,4 +6,8 @@
     .normalText {
         @apply font-[Lato] text-[10px] sm:text-[12px] text-gray-500;
     }
+    
+    .quicksand{
+        @apply font-[Quicksand]
+    }
 }
